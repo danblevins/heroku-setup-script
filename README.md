@@ -1,4 +1,4 @@
-# ☁️ Heroku Bash Script for Python Flask Apps
+# ☁️ Heroku Script for Python Flask Apps
 
 ## About this Script
 

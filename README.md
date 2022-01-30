@@ -21,7 +21,7 @@ Then, go to your projects root folder in your terminal/ command line.
 Copy, paste, and run all of the following in your terminal/ command line:
 ```
 echo 'web: gunicorn main:app' > Procfile && \
-python3 --version | tr '[:upper:]' '[:lower:]' | tr ' ' '-' > runtime.txt && \
+python-3.10.2 > runtime.txt && \
 pipreqs --force > requirements.txt && \
 echo 'gunicorn==20.0.4' >> requirements.txt
 ```
@@ -29,5 +29,4 @@ echo 'gunicorn==20.0.4' >> requirements.txt
 ## Libraries Used:
 
 - [echo](https://ss64.com/bash/echo.html)
-- [tr](https://ss64.com/bash/tr.html)
 - [pipreqs](https://pypi.org/project/pipreqs/)
